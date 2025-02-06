@@ -2,8 +2,8 @@
 package transports
 
 import (
-	"github.com/angelodlfrtr/go-can"
 	brutCan "github.com/brutella/can"
+	"github.com/jaster-prj/go-can"
 )
 
 // SocketCan define a socketcan connection to canbus
@@ -35,7 +35,7 @@ func (t *SocketCan) Open() error {
 		}
 	}()
 
-	t.readChan = make(chan *can.Frame)
+	t.readChan = make(chan *can.Frame, 20)
 	t.bus = bus
 
 	// Create handler

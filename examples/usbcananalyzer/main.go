@@ -4,8 +4,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/angelodlfrtr/go-can"
-	"github.com/angelodlfrtr/go-can/transports"
+	"github.com/jaster-prj/go-can"
+	"github.com/jaster-prj/go-can/transports"
 )
 
 // TestPort contain serial path to test port
