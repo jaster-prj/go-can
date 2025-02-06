@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/angelodlfrtr/go-can"
 	"github.com/angelodlfrtr/serial"
+	"github.com/jaster-prj/go-can"
 )
 
 // USBCanAnalyzer define a USBCanAnalyzer connection to canbus via serial connection on USB
